@@ -29,3 +29,29 @@ Clone the project to your local machine using the following command:
 ```bash
 git clone https://github.com/yourusername/genz-calculator-app.git
 cd genz-calculator-app
+```
+### 2. Install dependencies
+Make sure you have the necessary dependencies installed by running:
+
+```bash
+Copy code
+flutter pub get
+```
+### 3. Set up an emulator or physical device
+For Android: You can use an Android emulator or a physical device.
+For iOS: You need to have Xcode installed to run the app on an iOS simulator or device.
+To check if Flutter can detect your devices, run:
+
+```bash
+Copy code
+flutter devices
+```
+4. Run the app
+Once everything is set up, you can run the app on your emulator or physical device:
+
+```bash
+Copy code
+flutter run
+```
+This will launch the app, and you should see the calculator interface.
+
